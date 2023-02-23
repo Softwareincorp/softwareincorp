@@ -7,6 +7,9 @@ var opt4=document.getElementById("option4");
 var res=document.getElementById("result");
 var nextbutton= document.getElementById("next");
 var q=document.getElementById('quit');
+var r=document.getElementById('res1');
+var re=document.getElementById('res2');
+var ress=document.getElementById('res3');
 
 var tques=questions.length;
 var score=0;
@@ -15,6 +18,8 @@ function quit()
 {         
 	      quiz.style.display='none';
           result.style.display='';
+		  r.style.display='';
+		  re.style.display='';
           var f=score/tques;
           result.textContent="Вы ответили не на все вопросы";
           q.style.display="none";
@@ -47,6 +52,8 @@ function nextques()
 	     q.style.display='none';
           quiz.style.display='none';
           result.style.display='';
+		  r.style.display='';
+		  re.style.display='';
           result.textContent="Вы на "+(f*100).toFixed(2)+"% цундере";
             return;
 	     }
