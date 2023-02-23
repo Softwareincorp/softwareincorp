@@ -17,5 +17,22 @@
     <div class="frame">
         <button onclick="location.href='menu.html'" class="custom-btn btn">Начать<div class="dot"></div></button>
     </div>
+
+    <script src="script.js"></script>
+    <script>
+      const start = () => {
+          setTimeout(function() {
+              confetti.start()
+          }, 1000);
+      };
+
+      const stop = () => {
+          setTimeout(function() {
+              confetti.stop()
+          }, 30000);
+      };
+      start();
+      stop();
+    </script>
 </body>
 </html>
