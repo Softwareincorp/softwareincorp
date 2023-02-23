@@ -25,9 +25,9 @@ h1{
 #neko
 {
     position: absolute;
-    height: 70%;
+    height: 50%;
     width: 80%;
-    margin: 2% 10% 2% 10%;
+    margin: 25% 10% 25% 10%;
 }
 
 #bg 
@@ -237,4 +237,3 @@ h1{
 	font-size: 2em;
 	color: rgb(255, 255, 255);
 }
-
