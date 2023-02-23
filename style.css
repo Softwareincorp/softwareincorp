@@ -1,0 +1,127 @@
+body
+{
+	font-family: 'Macondo', cursive;
+	background-image: url("bg.jpg");
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+}
+#heading
+{     position: absolute;
+	    left:10%;
+    	width: 70%;
+		background: rgb(255 0 138 / 50%);
+		padding: 20px;
+		border: 3px solid #ff00bf;
+		border-radius: 25px;
+		box-shadow: 0 0 8px 3px #fff;
+}
+#text
+{
+	text-align: center;
+	color: #ffffff;
+}
+#quiz
+{
+    	width: 70%;
+    	position: absolute;
+    	left:10%;
+    	top: 40%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 3px solid #ff00bf;
+		border-radius: 25px;
+		box-shadow: 0 0 8px 3px #fff;
+	
+}
+#question
+{
+	width: 90%;
+   	padding: 3%;
+   	font-size: 22px;
+   	background: rgb(255 0 138 / 50%);
+   	border-radius: 10px;
+   	margin: 3% 0 3% 0;
+   	color: #f6f6f6;
+}
+.option{
+	width: 90%;
+	display: inline-block;
+	padding: 3% 0 3% 0;
+	background: rgb(255 0 138 / 50%);
+	margin: 5% 0 5% 5%;
+	color: #fff;
+	border: 2px solid #ff00bf; 
+	border-radius:5px;
+} 
+
+#buttons
+{
+	width: 90%;
+	display: table;
+	padding: 3% 0 3% 0;
+	background: rgb(255 0 138 / 50%);
+	margin: 5% 0 5% 5%;
+	color: #fff;
+	border: 2px solid #ff00bf; 
+	border-radius:5px;
+	
+}
+
+.option:hover{
+	background: #ffffff;
+	color: #000000;	
+}
+#next
+{
+	font-family: 'Macondo' cursive; 
+	background-color: rgb(255 0 138);
+	width: 45%;
+	height: 50px;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin: 5% 0 5% 3%;
+	
+}
+#next:hover{
+	background-color:rgb(255, 255, 255);
+	color: #ff00bf;
+}
+#quit
+{
+	font-family: 'Macondo' cursive; 
+	background-color: rgb(255 0 138);
+	width: 45%;
+	height: 50px;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin: 5% 0 5% 3%;
+	
+}
+#quit:hover{
+	background-color:rgb(255, 255, 255);
+	color: #ff00bf;
+}
+#result
+{
+	position: absolute;
+	font-family: 'Macondo' cursive; 
+	background-color: rgb(255 0 138);
+	left: 10%;
+	top: 30%;
+	width: 70%;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	color: rgb(255, 255, 255);
+}
+
