@@ -43,7 +43,7 @@ body
    	font-size: 1.5em;
    	background: rgb(255 0 138 / 50%);
    	border-radius: 10px;
-   	margin: 0 2.5%;
+   	margin: 0 auto;
    	color: #f6f6f6;
 	text-align: center;
 }
