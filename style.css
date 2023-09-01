@@ -303,7 +303,7 @@ input + span {
 /* Small mobile devise */
 @media (max-width: 380px) {
 		.frame {
-			position: fixed;
+		position: fixed;
     		width: 100%;
     		height: 7%;
     		margin: 90% 0;
