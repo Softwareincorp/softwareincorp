@@ -18,12 +18,12 @@ h1{
 
 .heading
 {
-	position: fixed;
-    background: rgb(255 0 138 / 50%);
-    border: 3px solid #ff00bf;
-    border-radius: 25px;
-    box-shadow: 0 0 8px 3px #fff;
-	margin: 10% 21%;
+	position: relative;
+    	background: rgb(255 0 138 / 50%);
+    	border: 3px solid #ff00bf;
+    	border-radius: 25px;
+    	box-shadow: 0 0 8px 3px #fff;
+	margin: 25% 34%;
 	z-index: 100;
 }
 
@@ -44,10 +44,10 @@ h1{
 }
 
 .frame {
-	position: fixed;
+	position: relative;
 	width: 100%;
-	height: 7%;
-	margin: 155% 0;
+	height: 25%;
+	margin: 155% 34%;
 	text-align: center;
 	z-index: 1000;
 }
@@ -76,6 +76,7 @@ h1{
 	background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
 	color: #fff;
 	overflow: hidden;
+	width: 80%
 }
 
 .btn:hover {
