@@ -1,0 +1,323 @@
+body
+{
+	position: relative;
+	font-family: 'Cormorant Infant';
+	background-color: white;
+}
+#heading
+{   
+	position: relative;
+	left: 10%;
+    	width: 70%;
+	background: rgb(255 0 138 / 50%);
+	padding: 20px;
+	border: 3px solid #ff00bf;
+	border-radius: 25px;
+	box-shadow: 0 0 8px 3px #fff;
+	margin: 10% 0 10% 0;
+}
+#text
+{
+	text-align: center;
+	color: #ffffff;
+}
+#quiz
+{
+    	width: 70%;
+    	position: relative;
+    	left:10%;
+    	top: 40%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 3px solid #ff00bf;
+		border-radius: 25px;
+		box-shadow: 0 0 8px 3px #fff;
+		margin: 10% 0 10% 0;
+
+}
+#question
+{
+	width: 90%;
+   	padding: 3%;
+   	font-size: 1.5em;
+   	background: rgb(255 0 138 / 50%);
+   	border-radius: 10px;
+   	margin: 0 auto;
+   	color: #f6f6f6;
+	text-align: center;
+}
+.option{
+	width: 90%;
+	display: inline-block;
+	padding: 3% 0 3% 0;
+	background: rgb(255 0 138 / 50%);
+	margin: 5% 0 5% 5%;
+	color: #fff;
+	border: 2px solid #ff00bf; 
+	border-radius:5px;
+	font-size: 1.5em;
+}
+
+.main
+{
+	position: absolute;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+   	background-size: 100%;
+   	background-color: white;
+	width: 100%;
+	height: 500px;
+}
+
+.frame {
+	position: relative;
+	width: 100%;
+	height: 25%;
+	margin: 100% 34%;
+	text-align: center;
+	z-index: 1000;
+}
+
+.custom-btn {
+	width: 80%;
+	height: 120%;
+	color: #fff;
+	border-radius: 25px;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+	outline: none;
+	font-family: 'Cormorant Infant';
+	font-size: 2em;
+}
+
+.btn {
+	border: none;
+	background: rgb(251, 33, 117);
+	background: linear-gradient(0deg, rgba(251, 33, 117, 0.7) 0%, rgba(234, 76, 137, 1) 100%);
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn:before {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	top: -180px;
+	left: 0;
+	width: 30px;
+	height: 100%;
+	background-color: #fff;
+	animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.btn:hover {
+	opacity: .7;
+}
+
+.btn:active {
+	box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+@-webkit-keyframes shiny-btn1 {
+	0% {
+		-webkit-transform: scale(0) rotate(45deg);
+		opacity: 0;
+	}
+
+	80% {
+		-webkit-transform: scale(0) rotate(45deg);
+		opacity: 0.5;
+	}
+
+	81% {
+		-webkit-transform: scale(4) rotate(45deg);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(50) rotate(45deg);
+		opacity: 0;
+	}
+}
+
+#buttons
+{
+	width: 90%;
+	display: table;
+	padding: 3% 0 3% 0;
+	background: rgb(255 0 138 / 50%);
+	margin: 5% 0 5% 5%;
+	color: #fff;
+	border: 2px solid #ff00bf; 
+	border-radius:5px;
+
+}
+
+.option:hover{
+	background: #ffffff;
+	color: #000000;	
+}
+#next
+{
+	font-family: 'Cormorant Infant'; 
+	background-color: rgb(255 0 138);
+	width: 45%;
+	height: 5%;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin: 5% 0 5% 3%;
+	color: white;
+	font-size: 1.2em;
+}
+#next:hover{
+	background-color:rgb(255, 255, 255);
+	color: #ff00bf;
+}
+#quit
+{
+	font-family: 'Cormorant Infant'; 
+	background-color: rgb(255 0 138);
+	width: 45%;
+	height: 5%;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin: 5% 0 5% 3%;
+	color: white;
+	font-size: 1.2em;
+
+}
+#quit:hover{
+	background-color:rgb(255, 255, 255);
+	color: #ff00bf;
+}
+#result
+{
+	position: relative;
+	font-family: 'Cormorant Infant'; 
+	background-color: rgb(255 0 138);
+	left: 10%;
+	top: 100%;
+	width: 80%;
+	border: 1px solid #ff00bf;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	text-align: center;
+	padding: 0 0 110% 0;
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+	background-image: url("cat.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 250%;
+	background-position-y: bottom;
+	font-weight: bold;
+}
+
+:root {
+	--bg: #e3e4e8;
+	--fg: #17181c;
+	--bs1: #ff008a80;
+	--bs2: #ff008a80;
+	--bs3: #ff008a80;
+	--bs4: #e642b0;
+	--transDur: 0.1s;
+	font-size: calc(20px + (40 - 20)*(100vw - 320px)/(2560 - 320));
+}
+form {
+	display: flex;
+}
+
+label {
+	display: block;
+	margin: 0 0.2em;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+}
+label:first-child input {
+	border-radius: 0.9em 0.9em 0 0.9em;
+}
+label:last-child input {
+	border-radius: 0.9em 0.9em 0.9em 0;
+}
+input {
+	border-radius: 0;
+	box-shadow:
+		0.15em 0.15em 1em var(--bs2) inset,
+		-0.15em -0.15em 1em var(--bs3) inset,
+		0.15em 0.15em 0.45em var(--bs4), 
+		-0.15em -0.15em 0.45em var(--bs1);
+	cursor: pointer;
+	display: block;
+	margin-bottom: 0.5em;
+	width: 96%;
+	height: 0.5em;
+	transition: all var(--transDur) ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+input:checked {
+	box-shadow:
+		-0.15em -0.15em 0.45em var(--bs2) inset,
+		0.15em 0.15em 0.45em var(--bs4) inset,
+		0 0 0 var(--bs4), 
+		0 0 0 var(--bs1);
+}
+input:checked + span {
+	opacity: 1;
+}
+input:focus {
+	outline: transparent;
+}
+input + span {
+	opacity: 0.65;
+	transition: opacity var(--transDur) ease-in-out;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #454954;
+		--fg: #e3e4e8;
+		--bs1: #5a5f6d;
+		--bs2: #4a4e5a;
+		--bs3: #3e424c;
+		--bs4: #30333b;
+	}
+
+/* Small mobile devise */
+@media (max-width: 380px) {
+		.frame {
+		position: fixed;
+    		width: 100%;
+    		height: 7%;
+    		margin: 90% 0;
+    		text-align: center;
+    		z-index: 1000;
+		}
+		.main {
+    		position: absolute;
+    		background-image: url(bg.jpg);
+    		background-repeat: no-repeat;
+    		background-size: 100%;
+    		background-color: white;
+    		width: 80%;
+    		height: 585px;
+	}
+}
