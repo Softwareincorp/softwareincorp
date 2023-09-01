@@ -67,11 +67,10 @@ function nextques()
         quiz.style.display='none';
         result.style.display='';
 		r.style.display='';
-		if(index==0){r.style.backgroundImage="url('cundere.jpg')"}
-		if(index==1){r.style.backgroundImage="url('yandere.jpg')"}
-		if(index==2){r.style.backgroundImage="url('cudere.jpg')"}
-		if(index==3){r.style.backgroundImage="url('deredere.jpg')"}
-		if(index==4){r.style.backgroundImage="url('hadsidere')"}
+		if(index==0){r.style.backgroundImage="url('1.gif')"}
+		if(index==1){r.style.backgroundImage="url('2.gif')"}
+		if(index==2){r.style.backgroundImage="url('3.gif')"}
+		if(index==3){r.style.backgroundImage="url('4.gif')"}
 		res1.style.display='';
 		res2.style.display='';
         result.textContent=roles[index];
