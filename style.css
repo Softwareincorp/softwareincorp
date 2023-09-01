@@ -310,5 +310,13 @@ input + span {
     		text-align: center;
     		z-index: 1000;
 		}
+		.main {
+    		position: absolute;
+    		background-image: url(bg.jpg);
+    		background-repeat: no-repeat;
+    		background-size: 100%;
+    		background-color: white;
+    		width: 80%;
+    		height: 585px;
 	}
 }
