@@ -78,7 +78,7 @@ function nextques()
 		if(index==1){r.style.backgroundImage="url('yandere.jpg')", r.style.padding="0 0 110% 0"}
 		if(index==2){r.style.backgroundImage="url('cudere.jpg')", r.style.padding="0 0 60% 0"}
 		if(index==3){r.style.backgroundImage="url('deredere.jpg')", r.style.padding="0 0 110% 0"}
-		if(index==4){r.style.backgroundImage="url('hadsidere.jpg')", r.style.padding="0 0 70% 0"}
+		if(index==4){r.style.backgroundImage="url('hadsidere.jpg')", r.style.padding="0 0 50% 0"}
 		res1.style.display='';
 		res2.style.display='';
         result.textContent=roles[index];
